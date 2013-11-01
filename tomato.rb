@@ -13,8 +13,8 @@ File.open('tomatoes.html', 'w') do |x|
 
     x.puts("<html>")
     x.puts("<head>")
-    x.puts("<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300' rel='stylesheet' type='text/css'>")
-    x.puts("<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,800,700,600,500,900' rel='stylesheet' type='text/css'>")
+    x.puts("<link href='http://fonts.googleapis.com/css?family=Titillium+Web:100,200' rel='stylesheet' type='text/css'>")
+    x.puts("<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>")
     x.puts("<link type='text/css' rel='stylesheet' href='stylesheet.css'/>")
     x.puts("<meta charset='UTF-8'>")
     x.puts("<link rel='shortcut icon' href='http://www.rottentomatoes.com/favicon.ico'>")
