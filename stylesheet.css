@@ -3,21 +3,43 @@
   background-color: grey;
   color: white;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .content {
-  background-image: url("http://www.beyondblackwhite.com/wordpress/wp-content/uploads/2013/08/movie_theatre.jpg")
+  width: 100%;
+  height: 100%;
+  background-image: url ()
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
+*/}
+
+.unit {
+  margin: 2px;
+  float: left;
+  text-align: center;
+  width: 100px;
+  height: 200px;
 }
 
 .name {
   position: absolute;
+  background-color: black;
+  font-family: 'Titillium Web', sans-serif ;
+  color: white;
+  font-weight: 200;
 }
 
 .numbers {
-  position: absolute;
+  position: relative;
+  bottom: 10%;
+  background-color: red;
+  font-family: 'Titillium Web', sans-serif ;
+  color: white;
+}
+
+.image {
+  z-index: 1;
 }

@@ -24,17 +24,17 @@ File.open('tomatoes.html', 'w') do |x|
     x.puts("<div class = 'content'>")
 
   movies.each do |m|
-
     title = m.css('div.heading.clearfix h2 a')
     rating = m.css('div.heading.clearfix span.tMeterScore')
     poster = m.css('a.media_block_image.big img') 
 
+    x.write ("<div class = 'unit'>")
     x.write ("<div class = 'name'>" + title.text + "</div>")
     x.write ("<div class = 'numbers'>" + rating.text + "</div>")
     x.write ("<div class = 'image'>")
     x.write poster
     x.write ("</div>")
-
+    x.write ("</div>")
   end
 
     x.puts("</div>")
