@@ -1,0 +1,23 @@
+.header h1 {
+  font-family: 'Titillium Web', sans-serif ;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+.content {
+  background-image: url("http://www.beyondblackwhite.com/wordpress/wp-content/uploads/2013/08/movie_theatre.jpg")
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.name {
+  position: absolute;
+}
+
+.numbers {
+  position: absolute;
+}

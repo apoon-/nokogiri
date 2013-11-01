@@ -22,18 +22,18 @@ File.open('movies.html', 'w') do |x|
     x.puts("<div class = 'Header'><h1>Rotten Tomatoes - Now Playing</h2></div>")
     x.puts("<div class = 'content'>")
     x.puts("<div class = 'title'>")
-  movies.each do |title|
-    x.puts("<p>" + title.text + "</p>")
-  end
-    x.puts("</div>")
-    x.puts("<div class = 'ratings'>")
-  rating.each do |num|
-    x.puts("<p>" + num.text + "</p>")
-  end
-    x.puts("</div>")
-    x.puts("<div class = 'picture'>")
-  poster.each do |picture|
-    x.puts picture
+  # movies.each do |title|
+  #   x.puts("<p>" + title.text + "</p>")
+  # end
+  #   x.puts("</div>")
+  #   x.puts("<div class = 'ratings'>")
+  # rating.each do |num|
+  #   x.puts("<p>" + num.text + "</p>")
+  # end
+  #   x.puts("</div>")
+  #   x.puts("<div class = 'picture'>")
+  # poster.each do |picture|
+  #   x.puts picture
   end
     x.puts("</div>")
     x.puts("</div>")
