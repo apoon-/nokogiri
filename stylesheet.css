@@ -15,12 +15,12 @@
 .content {
   width: 100%;
   height: 100%;
-  background-color: url(http://1.bp.blogspot.com/_yB5ByUIhY3c/TOvpIZ3G3XI/AAAAAAAAAZQ/8zLUE_RSZi0/s1600/IMGP0005.JPG);
-  /*background-image: url(../movie_theatre.jpg);
-  -webkit-background-size: cover;
+  background-image: url(http://1.bp.blogspot.com/_yB5ByUIhY3c/TOvpIZ3G3XI/AAAAAAAAAZQ/8zLUE_RSZi0/s1600/IMGP0005.JPG);
+/*  background-image: url(../movie_theatre.jpg);
+*/  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 .unit {
